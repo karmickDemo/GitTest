@@ -29,10 +29,22 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ozm-5z-kCO"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New label in a new branch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yrd-c5-yTB">
+                                <rect key="frame" x="58" y="145" width="259" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="etl-o7-xMT"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="259" id="oPQ-8b-20e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Yrd-c5-yTB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sgr-AJ-2k3"/>
                             <constraint firstItem="AH7-N4-gwZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cj9-z6-2ob"/>
+                            <constraint firstItem="Yrd-c5-yTB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="125" id="d8C-iP-g7U"/>
                             <constraint firstItem="AH7-N4-gwZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sLY-MT-xKh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
