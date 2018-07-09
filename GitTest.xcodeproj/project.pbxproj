@@ -15,6 +15,7 @@
 		CD66827520F33F5400BFCE44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD66827320F33F5400BFCE44 /* LaunchScreen.storyboard */; };
 		CD66828020F33F5500BFCE44 /* GitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD66827F20F33F5500BFCE44 /* GitTestTests.swift */; };
 		CD66828B20F33F5500BFCE44 /* GitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD66828A20F33F5500BFCE44 /* GitTestUITests.swift */; };
+		CD66829920F346B200BFCE44 /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD66829820F346B200BFCE44 /* MapForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CD66828620F33F5500BFCE44 /* GitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD66828A20F33F5500BFCE44 /* GitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTestUITests.swift; sourceTree = "<group>"; };
 		CD66828C20F33F5500BFCE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD66829820F346B200BFCE44 /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CD66827320F33F5400BFCE44 /* LaunchScreen.storyboard */,
 				CD66827620F33F5400BFCE44 /* Info.plist */,
 				CD66826E20F33F5400BFCE44 /* GitTest.xcdatamodeld */,
+				CD66829820F346B200BFCE44 /* MapForItinerary.swift */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD66829920F346B200BFCE44 /* MapForItinerary.swift in Sources */,
 				CD66827020F33F5400BFCE44 /* GitTest.xcdatamodeld in Sources */,
 				CD66826A20F33F5300BFCE44 /* ViewController.swift in Sources */,
 				CD66826820F33F5300BFCE44 /* AppDelegate.swift in Sources */,
@@ -438,7 +442,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.karmick.GitTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,7 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.karmick.GitTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
